@@ -15,8 +15,8 @@ app.use(express.static(path.join(__dirname, '../frontend')));
 // Socket.IO configuration
 const io = socketIo(server, {
   cors: {
-    origin: "*", // Replace with specific origin(s) in production
-    methods: ["GET", "POST"]
+    origin: 'https://tictactoe-h4zx.onrender.com',
+    methods: ['GET', 'POST'] // Add allowed methods as needed
   }
 });
 
