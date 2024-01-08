@@ -1,4 +1,4 @@
-const socket = io("ws://localhost:3000");
+const socket = io("https://tictactoe-h4zx.onrender.com");
 const token = {
     1: "cross",
     2: "circle"
