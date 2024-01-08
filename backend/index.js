@@ -2,7 +2,7 @@ const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
 const path = require('path');
-const os = require('os');
+const cors = require('cors'); // Import the 'cors' package
 
 const app = express();
 const server = http.createServer(app);
@@ -12,14 +12,16 @@ const PORT = process.env.PORT || 3000; // Change the port to 3000
 // Serve static files from the 'frontend' directory
 app.use(express.static(path.join(__dirname, '../frontend')));
 
-// Socket.IO configuration
-const io = socketIo(server, {
-  app.use(cors({
+// Configure CORS for specific origin and methods
+app.use(cors({
   origin: 'https://tictactoe-h4zx.onrender.com',
   methods: ['GET', 'POST'],
   credentials: true // if you're using cookies or authentication
 }));
-});
+
+// Socket.IO configuration
+const io = socketIo(server);
+
 
 // add socket id to player obj
 function joinPlayers(clientId) {
