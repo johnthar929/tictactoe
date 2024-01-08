@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Programonaut-Blog/ws-tic-tac-toe#readme",
   "dependencies": {
-    "express": "^latest-version",
+    "express": "^4.17.1",
     "socket.io": "^4.1.2"
   }
 }
