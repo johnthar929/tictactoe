@@ -1,0 +1,17 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+    // Other scripts if needed
+  },
+  "dependencies": {
+    "express": "^latest-version",
+    "socket.io": "^latest-version"
+    // Other dependencies
+  },
+  "author": "johnthar",
+  "license": "MIT"
+}
