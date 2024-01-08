@@ -14,10 +14,11 @@ app.use(express.static(path.join(__dirname, '../frontend')));
 
 // Socket.IO configuration
 const io = socketIo(server, {
-  cors: {
-    origin: 'https://tictactoe-h4zx.onrender.com',
-    methods: ['GET', 'POST'] // Add allowed methods as needed
-  }
+  app.use(cors({
+  origin: 'https://tictactoe-h4zx.onrender.com',
+  methods: ['GET', 'POST'],
+  credentials: true // if you're using cookies or authentication
+}));
 });
 
 // add socket id to player obj
