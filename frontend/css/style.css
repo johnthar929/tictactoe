@@ -52,6 +52,14 @@ h1{
     color: green;
 }
 
+#current-turn #clientId #left{
+    align: left;
+}
+
+#current-turn #clientId #right{
+    align: right;
+}
+
 .text-container {
     height: var(--weight-height);
 }
