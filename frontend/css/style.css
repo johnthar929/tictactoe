@@ -58,6 +58,7 @@ h1{
 
 #current-turn #clientId #right{
     align: right;
+    color:red;
 }
 
 .text-container {
