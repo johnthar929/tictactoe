@@ -38,7 +38,10 @@ socket.on('turn', (turn) => {
     setField(x, y, activeId);
 
     activeId = next;
-    document.getElementById('clientId').innerHTML = clientId == activeId ? 'your' : 'not your';
+    
+    document.getElementById('clientId').innerHTML = clientId == activeId ? "It's your Turn!" : "Its not your Turn!";
+    
+    //document.getElementById('clientId').innerHTML = clientId == activeId ? 'your' : 'not your';
 })
 
 // show popup with win information
