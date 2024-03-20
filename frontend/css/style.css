@@ -48,16 +48,16 @@ h1{
 }
 
 #current-turn #clientId{
-    font-size: 64px;
     color: green;
 }
 
 #current-turn #clientId #left{
-    align: left;
+    text-align: left;
+    color: green;
 }
 
 #current-turn #clientId #right{
-    align: right;
+    text-align: right;
     color:red;
 }
 
