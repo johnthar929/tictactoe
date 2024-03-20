@@ -38,7 +38,7 @@ h1{
     grid-template-rows: repeat(3, 150px);
     gap: 3px;
 
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 #current-turn {
@@ -71,13 +71,13 @@ h1{
 
 button {
     border: none;
-    background-color: #011627;
+    background-color: #1D1D1D;
     border-radius: 0;
     background-image: unset;
 }
 
 button:hover {
-    background-color: #011d33;
+    background-color: #404040;
 }
 
 .cross {
