@@ -47,6 +47,11 @@ h1{
     margin: 0;
 }
 
+#current-turn #clientId{
+    font-size: 64px;
+    color: green;
+}
+
 .text-container {
     height: var(--weight-height);
 }
