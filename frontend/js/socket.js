@@ -39,7 +39,7 @@ socket.on('turn', (turn) => {
 
     activeId = next;
     
-    document.getElementById('clientId').innerHTML = clientId == activeId ? "It's your Turn!" : "Its not your Turn!";
+    document.getElementById('clientId').innerHTML = clientId == activeId ? "<span id='left'>It's your Turn!</span>" : "<span id='right'>Its not your Turn!</span>";
     
     //document.getElementById('clientId').innerHTML = clientId == activeId ? 'your' : 'not your';
 })
