@@ -71,13 +71,13 @@ h1{
 
 button {
     border: none;
-    background-color: #1D1D1D;
+    background-color: #080808;
     border-radius: 0;
     background-image: unset;
 }
 
 button:hover {
-    background-color: #404040;
+    background-color: #0C0C0C;
 }
 
 .cross {
