@@ -141,6 +141,7 @@ button:hover {
 
     .winner-container{
         font-size: 42px;
+        width:600px;
     }
 
     #replay {
