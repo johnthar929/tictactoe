@@ -139,9 +139,12 @@ button:hover {
         font-size: 36px;
     }
 
+    #popup{
+        width: 70vw;
+    }
+
     .winner-container{
         font-size: 42px;
-        width:600px;
     }
 
     #replay {
